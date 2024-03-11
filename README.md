@@ -40,7 +40,12 @@ Here is my endpoints:
 
 I am planning to use clean architecture structures. So you could change UI, Databases to which you like it will not change my bussines logic.
 
-There will be 5 tables in postgresql: users(id, name, username,password_hash), users_tasks(id, user_id,list_id), todo_list(id, title, description), list_items(id, list_id, item_id), todo_item(id, title,description, done)
+There will be 5 tables in postgresql: 
+users(id, name, username,password_hash),
+users_tasks(id, user_id,list_id),
+todo_list(id, title, description),
+list_items(id, list_id, item_id),
+todo_item(id, title,description, done)
 Here is a diagramm it is also uploaded here in my git repository
 ![Untitled](https://github.com/ArnurTanirbergenov/golangToDoList/assets/123318070/1be25936-9f56-435a-b689-c4446899523f)
 
