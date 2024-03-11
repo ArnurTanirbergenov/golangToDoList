@@ -3,10 +3,13 @@ Golang ToDo List for final
 My list will have a authenfication by using JWT tokens.Users could create, delete and change tasks. This project is crucial for managment of your tasks.
 I will be writing using Go language, postgresql, docker. If you have enough knowledge on docker it will be the only app that you needed to install this application.
 All you need to start is
+```
 make build && make run
-
+```
 I am using files migration so if you start it first time you need to write this one too.
+```
 make migrate
+```
 
 Here is my endpoints:
 ```auth := router.Group("/auth")
