@@ -9,7 +9,7 @@ I am using files migration so if you start it first time you need to write this 
 make migrate
 
 Here is my endpoints:
-auth := router.Group("/auth")
+```auth := router.Group("/auth")
 	{
 		auth.POST("/sign-up", h.signUp)
 		auth.POST("/sign-in", h.signIn)
@@ -36,7 +36,7 @@ auth := router.Group("/auth")
 			items.PUT("/:id", h.updateItem)
 		}
 	}
-
+ ```
 
 I am planning to use clean architecture structures. So you could change UI, Databases to which you like it will not change my bussines logic.
 
